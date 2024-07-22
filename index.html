@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="backgroud"></div>
      <div class="content">
         <div class="upper">
-        <h1>My To-do list</h1>
-        <input type="text" id="taskInput" placeholder="enter task here"><br>
-        <button onclick="addTask()">Add Task</button>
-        <h2>Tasks to do</h2>
+            <h3>Enter New to do:</h3>
+            <div class="mybutton">
+                <input type="text" id="taskInput">
+                <button onclick="addTask()">Add</button>   
+            </div>
         </div>
-        <ol id="taskList"></ol>
+        <div class="tasks">
+            <ol id="taskList"></ol>    
+        </div>
+        
     </div>
 
 
