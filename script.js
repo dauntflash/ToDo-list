@@ -18,7 +18,7 @@ function addTask(){
         }
 
         var image= document.createElement('img');
-        image.src = 'icons8-trash.svg';
+        image.src = 'assets/icons8-trash.svg';
         image.onclick = function(){
             this.parentElement.remove();
         }
